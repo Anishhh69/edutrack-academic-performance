@@ -1,0 +1,14 @@
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}

@@ -1,0 +1,110 @@
+.student-report-content {
+  padding: 28px 32px;
+}
+
+/* Student profile */
+
+.student-profile-card {
+  margin-bottom: 20px;
+}
+
+.student-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.student-avatar {
+  width: 58px;
+  height: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #eff6ff;
+  color: #2563eb;
+
+  border-radius: 50%;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.student-info h2 {
+  margin: 0;
+
+  color: #0f172a;
+
+  font-size: 20px;
+}
+
+.student-info p {
+  margin: 5px 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+}
+
+.student-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #64748b;
+
+  font-size: 12px;
+}
+
+/* Statistics */
+
+.student-stats-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+
+  margin-bottom: 20px;
+}
+
+/* Table */
+
+.student-report-content > .section-card {
+  margin-bottom: 20px;
+}
+
+/* Chart */
+
+.student-chart-placeholder {
+  height: 280px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f8fafc;
+
+  border-radius: 8px;
+
+  color: #94a3b8;
+
+  font-size: 13px;
+}
+
+/* Responsive */
+
+@media (max-width: 800px) {
+  .student-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .student-report-content {
+    padding: 20px;
+  }
+
+  .student-meta {
+    flex-wrap: wrap;
+  }
+}

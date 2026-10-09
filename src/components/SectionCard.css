@@ -1,0 +1,39 @@
+.section-card {
+  background-color: #ffffff;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+/* Header */
+
+.section-card-header {
+  padding: 20px 22px 16px;
+
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.section-card-header h2 {
+  margin: 0;
+
+  color: #0f172a;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-card-header p {
+  margin: 5px 0 0;
+
+  color: #64748b;
+
+  font-size: 12px;
+}
+
+/* Content */
+
+.section-card-content {
+  padding: 20px 22px;
+}

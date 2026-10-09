@@ -1,0 +1,67 @@
+.app-layout {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+/* Main area */
+
+.main-content {
+  margin-left: 240px;
+  min-height: 100vh;
+}
+
+/* Dashboard content */
+
+.dashboard-content {
+  padding: 28px 32px;
+}
+
+/* Statistics */
+
+.stats-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 18px;
+
+  margin-bottom: 24px;
+}
+
+/* Main dashboard grid */
+
+.dashboard-grid {
+  display: grid;
+
+  grid-template-columns: 1.5fr 1fr;
+
+  gap: 20px;
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-content {
+    margin-left: 0;
+  }
+
+  .dashboard-content {
+    padding: 20px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
